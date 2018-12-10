@@ -1,0 +1,275 @@
+/*
+Theme Name: School template;
+Theme URI:
+Author: Rujal Maharjan;
+Author URI: http://rujbro@gmail.com;
+Description: Theme for school;
+Version: 1.0;
+License: GNU license or later;
+License URI:
+Tags: school, pre-school,Mobile first;
+Text Domain: school;
+*/
+
+.sr-text{
+	display: none;
+}
+
+/*Global css*/
+html{
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'sans-serif';
+}
+body{
+  margin: 0;
+  background-color: dodgerblue;
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+h1,h2,h3,h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+h1{
+  font-size: 48px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 28px;
+}
+h4{
+  font-size: 24px;
+}
+.clear,
+.clear::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.container{
+  width: 99%;
+  margin: 0 auto;
+}
+
+/* MAIN BODY CSS */
+/* .topMenu */
+header{
+  position: relative;
+  top: 0;
+  width: 99%;
+  background-color: dodgerblue;
+  z-index: 100;
+}
+
+.topMenu ul{
+    float: right;
+    width: 70%;
+    margin-right: 5%;
+    border-bottom: 2px solid #fff;
+    padding: 1% 0;
+
+}
+.topMenu ul li{
+    display: inline-block;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+
+.topMenu  ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
+
+.topMenu ul li a:hover{
+  color: rgb(241, 118, 46);
+  transition: all 0.3s ease-in;
+}
+
+/* logo */
+.logo img{
+    width: 165px;
+}
+.logo{
+    display: inline;
+}
+
+/* mainmenu */
+
+.mainMenu ul{
+  list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	display: table;
+}
+.mainMenu{
+  padding-left: 10%;
+  background-color: dodgerblue;
+}
+.navigation{
+  display: none;
+}
+
+.mainMenu ul li a{
+  text-align: center;
+	padding: 2px 0;
+  display: block;
+  margin-bottom: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+.mainMenu ul li a:hover{
+
+  color: rgb(241, 118, 46);
+  transition: all 0.3s ease-in;
+}
+.mainMenu ul li.current_page_item a{
+	border-bottom: 4px solid #fff;
+}
+
+.mainMenu #hamburger{
+  display: none;
+}
+/* topmenu end */
+.main-content{
+  position: relative;
+}
+
+section{
+  height: 550px;
+  width: 100%;
+
+}
+section.topslider{
+  margin-top: 1%;
+  height: 480px;
+}
+
+/* WELCOME */
+section.welcome{
+  margin: 0 auto;
+  background-image: url(http://localhost/school/wp-content/uploads/2018/08/bluebackground.png);
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+div.descript{
+  padding: 5% 2% 2% 8%;
+  font-size: 22px;
+}
+
+.row div a.sideimg img{
+  padding: 5% 0;
+  height: 500px;
+}
+
+
+
+/* Features Boxes */
+.features{
+  background-color: rgb(255, 255, 255, 0.9);
+	 height: auto;
+
+}
+div.head{
+  width: 6px  0%;
+  text-align: center;
+}
+.box-information{
+  float: none;
+	margin: 0 auto;
+  width: 90%;
+	padding-bottom: 15px;
+}
+.box-information .single-box{
+	text-align: center;
+  width: 25%;
+  float: left;
+  background-color: #f5f5f5;
+  color: #585858;
+}
+.box-information .single-box img{
+  width: 100%;
+  height: 40%;
+	display: block;
+}
+
+.box-information .single-box img, .box-information .single-box .content-box{
+      width: 90%;
+     height: 230px;
+
+    }
+
+.box-information .single-box h3{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.box-information .single-box p{
+	margin-bottom: 0;
+}
+
+.single-box .content-box{
+	padding: 10px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.box-information .single-box p{
+	margin-bottom: 0;
+}
+.single-box .content-box{
+	padding: 10px;
+	vertical-align: middle;
+  display: table-cell;
+}
+
+
+/* footer */
+footer{
+	margin-top: 15px;
+	padding: 15px 0;
+	border-top: 1px solid #48a4f0;
+	text-align: center;
+}
+footer .menu ul{
+  padding-left: 1px;
+  padding-right: 1px;
+}
+footer nav ul{
+	list-style: none;
+}
+footer nav ul li{
+  display: inline;
+
+}
+footer nav ul li:last-child .seperator{
+	display: none;
+}
+footer nav ul li a{
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+footer .location{
+	margin-top: 15px;
+}
+footer p{
+	margin: 0 0 4px 0;
+	font-size: 10px;
+}
+footer p.copyright{
+	margin-top: 16px;
+}
